@@ -8,6 +8,7 @@
 body {
   background-color: #d4d1d1;
   font-family: poppins, sans-serif;
+  width: 100%;
 }
 
 .blog {
@@ -38,7 +39,7 @@ h1 {
 .content {
   margin-bottom: 43px;
   background-color: #fff;
-  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  box-shadow: 0 4px 10px 0 #00000033, 0 4px 20px 0 #00000030;
   font-weight: 300;
 }
 
@@ -99,7 +100,7 @@ button {
 
 .avatar {
   background-color: #fff;
-  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  box-shadow: 0 4px 10px 0 #00000033, 0 4px 20px 0 #00000030;
   font-weight: 300;
 }
 
@@ -116,7 +117,7 @@ button {
 .post {
   margin-top: 43px;
   background-color: #fff;
-  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  box-shadow: 0 4px 10px 0 #00000033, 0 4px 20px 0 #00000030;
   font-weight: 300;
 }
 
@@ -139,7 +140,7 @@ button {
 .tags {
   margin-top: 43px;
   background-color: #fff;
-  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  box-shadow: 0 4px 10px 0 #00000033, 0 4px 20px 0 #00000030;
   font-weight: 300;
 }
 
@@ -168,7 +169,8 @@ button {
 }
 
 footer {
-  background-color: rgb(86, 83, 83);
+  background-color: #565353;
+  width: 100%;
 }
 
 .footer-button {
@@ -182,12 +184,12 @@ footer {
 }
 
 .disabled {
-  background: rgb(179, 173, 173);
+  background: #b3adad;
   font-weight: 300;
 }
 
 .disabled:disabled {
-  background-color: rgb(128, 128, 128);
+  background-color: #808080;
 }
 
 @media screen and (max-width: 770px) {
@@ -199,5 +201,5 @@ footer {
     display: block;
     grid-template-columns: 60% 38%;
     gap: 2%;
-    }
+  }
 }
