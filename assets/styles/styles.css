@@ -108,7 +108,7 @@ button {
 }
 
 .sub-text h2 {
-padding-bottom: 17px;
+  padding-bottom: 17px;
 }
 
 /* popular post section */
@@ -162,7 +162,6 @@ padding-bottom: 17px;
 }
 
 .tags ul span .first-tag {
-  
   background-color: #000;
   margin: px;
   color: #fff;
@@ -178,7 +177,7 @@ footer {
   padding-bottom: 34px;
 }
 
-footer p {
+.last-par {
   margin-left: 17px;
 }
 
@@ -188,18 +187,17 @@ footer p {
 }
 
 .disabled:disabled {
-  background-color: gray;
-}
-  
-@media screen and (max-width:770px) {
-  .blog {
-  /* background-color: red; */
-  padding-left: 16px;
-  padding-right: 16px;
-  max-width: 1400px;
-  display: block;
-  grid-template-columns: 60% 38%;
-  gap: 2%;
-  }
+  background-color: rgb(128, 128, 128);
 }
 
+@media screen and (max-width: 770px) {
+  .blog {
+    /* background-color: red; */
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1400px;
+    display: block;
+    grid-template-columns: 60% 38%;
+    gap: 2%;
+    }
+}
