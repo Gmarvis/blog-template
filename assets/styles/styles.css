@@ -10,10 +10,6 @@ body {
   font-family: poppins, sans-serif;
 }
 
-.entire-section {
-  width: 100vw;
-}
-
 .blog {
   padding-left: 16px;
   padding-right: 16px;
@@ -42,6 +38,8 @@ h1 {
   background-color: #fff;
   box-shadow: 0 4px 10px 0 #0003, 0 4px 20px 0 #0003;
   font-weight: 300;
+  width: 100%;
+
 }
 
 .con-desc {
@@ -170,7 +168,7 @@ button {
 
 footer {
   background-color: #565353;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .footer-button {
@@ -194,10 +192,8 @@ footer {
 
 @media screen and (max-width: 770px) {
   .blog {
-    /* background-color: red; */
     padding-left: 16px;
     padding-right: 16px;
-    max-width: 1400px;
     display: block;
     grid-template-columns: 60% 38%;
     gap: 2%;
