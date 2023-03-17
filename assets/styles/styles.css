@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Marck+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Marck+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 
 body {
   background-color: #d4d1d1;
-  font-family: "poppins";
+  font-family: poppins, sans-serif;
 }
 
 .blog {
@@ -29,16 +29,13 @@ header p span {
   background-color: #000;
   padding: 9px;
   color: #fff;
-
 }
 
 h1 {
-  margin-bottom:41px ;
+  margin-bottom: 41px;
 }
 
 .content {
-  /* width: 60%; */
-  /* display: block; */
   margin-bottom: 43px;
   background-color: #fff;
   box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
@@ -69,9 +66,9 @@ h1 {
 }
 
 .btn {
-/* background-color: red; */
-display: flex;
-justify-content: space-between;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn p {
@@ -79,12 +76,11 @@ justify-content: space-between;
 }
 
 .btn p span {
-   background-color: black;
-   color: #fff;
-   /* width: 10px; */
-   box-sizing: border-box;
-   padding: 10px;
-   font-size: 15px;
+  background-color: black;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 15px;
 }
 
 button {
@@ -93,7 +89,7 @@ button {
 }
 
 .border-reduis {
-   border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* sub blog section */
