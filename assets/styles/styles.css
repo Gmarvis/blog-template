@@ -8,14 +8,18 @@
 body {
   background-color: #d4d1d1;
   font-family: poppins, sans-serif;
-  width: 100%;
+}
+
+.entire-section {
+  width: 100vw;
+  
 }
 
 .blog {
   /* background-color: red; */
   padding-left: 16px;
   padding-right: 16px;
-  max-width: 1400px;
+  /* max-width: 1400px; */
   display: grid;
   grid-template-columns: 60% 38%;
   gap: 2%;
@@ -39,7 +43,7 @@ h1 {
 .content {
   margin-bottom: 43px;
   background-color: #fff;
-  box-shadow: 0 4px 10px 0 #00000033, 0 4px 20px 0 #00000030;
+  box-shadow: 0 4px 10px 0 #0003, 0 4px 20px 0 #0003;
   font-weight: 300;
 }
 
@@ -100,7 +104,7 @@ button {
 
 .avatar {
   background-color: #fff;
-  box-shadow: 0 4px 10px 0 #00033, 0 4px 20px 0 #00030;
+  box-shadow: 0 4px 10px 0 #0003, 0 4px 20px 0 #0003;
   font-weight: 300;
 }
 
@@ -117,7 +121,7 @@ button {
 .post {
   margin-top: 43px;
   background-color: #fff;
-  box-shadow: 0 4px 10px 0 #00033, 0 4px 20px 0 #00030;
+  box-shadow: 0 4px 10px 0 #0003, 0 4px 20px 0 #0003;
   font-weight: 300;
 }
 
