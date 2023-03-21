@@ -7,7 +7,7 @@
 
 body {
   background-color: #d4d1d1;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 15px;
 }
 
@@ -158,11 +158,16 @@ button {
   font-weight: 400;
 }
 
+.footer p {
+  padding-bottom: 52px;
+  color: #fff;
+  text-decoration: none;
+}
+
 .tags ul p {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  flex-flow: row;
   gap: 60px;
   font-size: 15px;
 }
@@ -219,12 +224,6 @@ footer {
   background-color: #b6b2b2;
   color: #000;
   border: none;
-}
-
-.footer p {
-  padding-bottom: 52px;
-  color: #fff;
-  text-decoration: none;
 }
 
 .last-par a {
